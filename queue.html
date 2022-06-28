@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Queue</title>
+    </head>
+    <body>
+        <h1><span style="color:slateblue; font-size: 30px;;background-color:white;"><u>QUEUE</u></span></h1>
+        <p>A queue is a useful data structure in programming. it is similar to the ticket queue outside a cinema hall, Where the first person entering the queue is the first person who gets the ticket.</p>
+        <p><i>Queue follows the <b>First In First Out (FIFO)</b> rule - the item that goes in first is the item that comes out first.</i></p>
+        <h2><b>Basic Operation of Queue</b></h2>
+        <p><i>A queue is an object (an abstract data structure - ADT) that allows the following operations</i></p>
+        <ul>
+            <li><b>Enqueue:</b><i> Add an element to the end of the queue.</i></li>
+            <li><b>Dequeue:</b><i> Remove an element from the front of the queue.</i></li>
+            <li><b>IsEmpty:</b><i> Check if the queue is empty.</i></li>
+            <li><b>IsFull:</b><i> Check if the queue is full.</i></li>
+            <li><b>Peek:</b><i> Get the value of the front of the queue without removing it.</i></li>
+        </ul>
+        <h3><b>Working of queue</b></h3>
+        <p><i>Queue operations work as follows</i></p>
+        <ul>
+            <li><i>Two pointer <b>FRONT</b> and <b>REAR</b></i></li>
+            <li><i><b>FRONT</b> track the first element of queue.</i></li>
+            <li><i><b>REAR</b> track the last element of the queue.</i></li>
+            <li><i>Initially, set value of <b>FRONT</b> and <b>REAR</b> to -1</i></li>
+        </ul>
+        <h4><b>Enqueue operations</b></h4>
+        <ul>
+            <li><i>Check if the queue is empty</i></li>
+            <li><i>For the first ,set the value of <b>FRONT</b> to 0</i></li>
+            <li><i>Increase the <b>REAR</b> index by 1</i></li>
+            <li><i>Add the new element in the position pointed to by <b>REAR</b></i></li>
+        </ul>
+        <h5><b>Dequeue operations</b></h5>
+        <ul>
+            <li><i>Check if the queue is empty</i></li>
+            <li><i>Return the value pointed by <b>FRONT</b></i></li>
+            <li><i>Increase the <b>FRONT</b> index by 1</i></li>
+            <li><i>For the last element, reset the values of <b>FRONT</b> and <b>REAR</b></i></li>
+        </ul>
+    </body>
